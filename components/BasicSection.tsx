@@ -84,17 +84,13 @@ const ImageContainer = styled.div`
   animation: ${(props: P) => props.animation};
   right: ${(props: P) => props.right};
   bottom: ${(props: P) => props.bottom};
-
   position: relative;
+
   &:before {
     display: block;
     content: '';
     width: 100%;
     padding-top: calc((9 / 16) * 100%);
-  }
-
-  &:nth-child(2) {
-    height: 20px;
   }
 
   & > div {
@@ -105,10 +101,6 @@ const ImageContainer = styled.div`
     left: 0;
     width: 70rem;
     height: 50rem;
-
-    &:nth-child(2) {
-      height: 20px;
-    }
   }
 
   ${media('<=desktop')} {
@@ -116,10 +108,6 @@ const ImageContainer = styled.div`
     right: 7rem;
     top: 5rem;
     width: 30rem;
-
-    &:nth-child(2) {
-      height: 20px;
-    }
   }
 `;
 
@@ -140,7 +128,7 @@ const BasicSectionWrapper = styled(Container)`
   background-position: center;
   background-repeat: no-repeat, repeat;
   background-size: cover;
-  background-position: 75% 50%;
+  background-position: 85% 50%;
   padding: 7rem 2rem 7rem 2rem;
 
   &:nth-child(6) {
@@ -159,7 +147,7 @@ const BasicSectionWrapper = styled(Container)`
     background-attachment: scroll;
 
     ${ImageContainer} {
-      margin: 0 0 2.5rem 0;
+      margin: 0 0 7rem 0;
     }
   }
 `;

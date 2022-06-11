@@ -59,8 +59,8 @@ export default function Homepage({ posts }: InferGetStaticPropsType<typeof getSt
             imageUrl="/birds2.png"
             title="Plastics and climate change"
             overTitle="Climate change"
-            right="30rem"
-            bottom="7rem"
+            right="15rem"
+            bottom="0rem"
             reversed
             backgroundImage="/birbs.jpeg"
             animation={birdy}
@@ -127,6 +127,7 @@ export default function Homepage({ posts }: InferGetStaticPropsType<typeof getSt
             reversed
             backgroundImage="/grafa.jpg"
             animation={grafa}
+            bottom="-10rem"
           >
             <Parag>
               On a molecular level, a lot is happening beneath the surface of a landfill. Everything is decomposing (breaking down) or

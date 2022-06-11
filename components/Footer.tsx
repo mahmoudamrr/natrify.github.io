@@ -62,7 +62,7 @@ export default function Footer() {
                 </a>
               </NextLink>
             </ShareBar>
-            <Copyright>&copy; Copyright {new Date().getFullYear()}</Copyright>
+            <Copyright>Natrify &copy; {new Date().getFullYear()}</Copyright>
           </BottomBar>
         </Container>
       </FooterWrapper>
